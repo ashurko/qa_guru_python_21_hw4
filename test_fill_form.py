@@ -36,3 +36,4 @@ def test_fill_form():
     browser.element('.table').should(have.text('Sports'))
     browser.element('.table').should(have.text('Some address'))
     browser.element('.table').should(have.text('NCR Delhi'))
+    browser.element('.table').should(have.text('test_file.txt'))
